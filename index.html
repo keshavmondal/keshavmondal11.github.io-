@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of a first-year Computer Science Engineering student.">
+  <title>Keshav Mondal | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CSS-only state controls (must stay before .page) -->
+  <input type="checkbox" id="theme" class="state" aria-label="Toggle dark mode">
+  <input type="checkbox" id="menu" class="state" aria-label="Toggle menu">
+
+  <div class="page" id="top">
+
+    <!-- ============ NAV ============ -->
+    <header class="nav">
+      <a href="#home" class="logo"><span></span></a>
+
+      <nav class="links" aria-label="Main">
+        <a href="#home">Home</a>
+        <a href="#academics">Academics</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <label for="theme" class="icon-btn theme-btn" title="Toggle light / dark">
+          <span class="moon">🌙</span><span class="sun">☀️</span>
+        </label>
+        <label for="menu" class="icon-btn burger" title="Menu">☰</label>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- ============ HOME ============ -->
+      <section id="home" class="hero">
+        <div class="hero-text">
+          <p class="hello">👋 Hello, I'm</p>
+          <h1>Keshav <span class="grad">Mondal</span></h1>
+          <h2 class="role">I'm a
+            <span class="roles">
+              <span class="roles-inner">
+                <span>CSE Student</span>
+                <span>Tech Enthusiast </span>
+                <span>Future AI & ML Engineer</span>
+              </span>
+            </span>
+          </h2>
+
+          <p class="lead">
+            First-year B.Tech Computer Science &amp; Engineering student who loves turning ideas into code.
+            Curious, consistent and always learning something new.
+          </p>
+
+          <ul class="facts">
+            <li><b>🎂 Age:</b> 19</li>
+            <li><b>📍 From:</b> Dhanbad, Jharkhand</li>
+            <li><b>🎓 College:</b> Indian Institute of Information Technology, Raichur</li>
+            <li><b>🗣️ Languages:</b> English, Hindi, Bengali</li>
+          </ul>
+
+          <div class="cta">
+            <a href="#projects" class="btn primary">View My Work</a>
+            <a href="#contact" class="btn ghost">Contact Me</a>
+            <a href="https://keshavmondal.github.io/keshavmondal.github.io-/resume.pdf" class="btn ghost" target="_blank" rel="noopener">Resume</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="photo-ring">
+            <div class="photo" role="img" aria-label="Keshav Mondal">
+              <span></span>
+            </div>
+          </div>
+          <span class="chip c1">💻 Coder</span>
+          <span class="chip c2">🚀 Learner</span>
+          <span class="chip c3">🎯 Dreamer</span>
+        </div>
+      </section>
+
+      <!-- ============ ACADEMICS ============ -->
+      <section id="academics" class="section">
+        <p class="eyebrow">02 — Academics</p>
+        <h2 class="title">My Academic Journey</h2>
+        <p class="sub">From school classrooms to my first semester at college.</p>
+
+        <div class="tabs">
+          <input type="radio" name="acad" id="t-college" checked>
+          <input type="radio" name="acad" id="t-extra">
+
+          <div class="tab-labels">
+            <label for="t-college">🎓 College</label>
+            <label for="t-extra">🏫 Extra</label>
+          </div>
+
+          <div class="timeline">
+            <article class="tl-item college">
+              <span class="date">2026 — Present</span>
+              <h3>B.Tech in Computer Science &amp; Engineering</h3>
+              <p class="place">Indian Institute of Information Technology, Raichur · 1st Year</p>
+              <ul>
+                <li>Current CGPA / SGPA: <b>-</b></li>
+                <li>Learning C, Python, SQL, HTML, CSS, JavaScript</li>
+              </ul>
+            </article>
+
+            <article class="tl-item college">
+              <span class="date">2023 — 2025</span>
+              <h3>Class 12</h3>
+              <p class="place">DAV Public School, Koylanagar</p>
+              <ul>
+                <li>Scored <b>94%</b> — PCM + Computer Science</li>
+              </ul>
+            </article>
+
+            <article class="tl-item college">
+              <span class="date">2023</span>
+              <h3>Class 10</h3>
+              <p class="place">Don Bosco Ramkanali</p>
+              <ul>
+                <li>Scored <b>95%</b></li>
+              </ul>
+            </article>
+
+            <article class="tl-item extra">
+              <span class="date">2018 — 2023</span>
+              <h3>School Achievements</h3>
+              <p class="place">Don Bosco Ramkanali</p>
+              <ul>
+                <li>🥇 Maths Olympiad — District level</li>
+                <li>📚 General proficiency awards</li>
+                <li>🥇 Sports Awards and medals across various sports and athletics</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <h3>95<small>%</small></h3>
+            <p>in Class 10</p>
+            <div class="bar"><i style="width:95%"></i></div>
+          </div>
+          <div class="stat">
+            <h3>94<small>%</small></h3>
+            <p>in Class 12</p>
+            <div class="bar"><i style="width:94%"></i></div>
+          </div>
+          <div class="stat">
+            <h3>🏅</h3>
+            <p>Awards &amp; Certificates</p>
+            <div class="bar"><i style="width:100%"></i></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SKILLS ============ -->
+      <section id="skills" class="section alt">
+        <p class="eyebrow">03 — Beyond Academics</p>
+        <h2 class="title">Skills, Hobbies &amp; Dream</h2>
+
+        <div class="grid-3">
+
+          <div class="panel">
+            <h3>⚡ Extra Skills</h3>
+
+            <div class="skill"><div class="skill-row"><span>HTML &amp; CSS</span><span>85%</span></div><div class="bar"><i style="width:85%"></i></div></div>
+            <div class="skill"><div class="skill-row"><span>Python</span><span>70%</span></div><div class="bar"><i style="width:70%"></i></div></div>
+            <div class="skill"><div class="skill-row"><span>C / C++</span><span>65%</span></div><div class="bar"><i style="width:65%"></i></div></div>
+            <div class="skill"><div class="skill-row"><span>JavaScript</span><span>55%</span></div><div class="bar"><i style="width:55%"></i></div></div>
+            <div class="skill"><div class="skill-row"><span>Git &amp; GitHub</span><span>60%</span></div><div class="bar"><i style="width:60%"></i></div></div>
+
+            <div class="tags">
+              <span>Problem Solving</span><span>Teamwork</span><span>Public Speaking</span><span>Canva</span>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h3>🎨 Hobbies</h3>
+            <div class="hobbies">
+              <div><span>🏏</span>Sports</div>
+              <div><span>🎵</span>Music</div>
+              <div><span>📖</span>Reading</div>
+              <div><span>🎮</span>Gaming</div>
+              <div><span>📷</span>Photography</div>
+              <div><span>✈️</span>Travelling</div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h3>🌟 My Dream</h3>
+            <p class="dream">
+              To become a software engineer who builds technology that solves real problems for people —
+              and one day start my own tech company.
+            </p>
+            <ul class="goals">
+              <li>Finish B.Tech with distinction</li>
+              <li>Crack a top internship</li>
+              <li>Contribute to open source</li>
+              <li>Launch my own startup</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ============ PROJECTS ============ -->
+      <section id="projects" class="section">
+        <p class="eyebrow">04 — Projects</p>
+        <h2 class="title">Things I've Built and Working on</h2>
+        <p class="sub">Click a filter to explore my work.</p>
+
+        <div class="projects">
+          <input type="radio" name="flt" id="f-all" checked>
+          <input type="radio" name="flt" id="f-web">
+          <input type="radio" name="flt" id="f-py">
+          <input type="radio" name="flt" id="f-c">
+
+          <div class="filters">
+            <label for="f-all">All</label>
+            <label for="f-web">Web</label>
+            <label for="f-py">Python</label>
+            <label for="f-c">C / C++</label>
+          </div>
+
+          <div class="cards">
+
+            <article class="card web">
+              <div class="ico">🌐</div>
+              <h3>Personal Portfolio</h3>
+              <p>This responsive website built with pure HTML, CSS and JavaScript.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+              <div class="card-links">
+                <a href="https://keshavmondal.github.io/keshavmondal.github.io-/" target="_blank" rel="noopener">Live ↗</a>
+                <a href="https://github.com/keshavmondal" target="_blank" rel="noopener">GitHub ↗</a>
+              </div>
+            </article>
+
+            <article class="card py">
+              <div class="ico">🐍</div>
+              <h3>Smart Vehicle Parking System</h3>
+              <p>Command-line app to log daily expenses and show monthly summaries.</p>
+              <div class="tags"><span>Python</span><span>CSV</span></div>
+              <div class="card-links">
+                <a href="https://github.com/keshavmondal" target="_blank" rel="noopener">GitHub ↗</a>
+              </div>
+            </article>
+
+            <article class="card c">
+              <div class="ico">⚙️</div>
+              <h3>AI-Powered Assistive Communication System</h3>
+              <p>Console program using structures and file handling to manage records.</p>
+              <div class="tags"><span>C</span><span>File I/O</span></div>
+              <div class="card-links">
+                <a href="https://github.com/keshavmondal" target="_blank" rel="noopener">GitHub ↗</a>
+              </div>
+            </article>
+
+            <article class="card web">
+              <div class="ico">🧮</div>
+              <h3>Smart Calculator</h3>
+              <p>A neat calculator with keyboard support and calculation history.</p>
+              <div class="tags"><span>HTML</span><span>JS</span></div>
+              <div class="card-links">
+                <a href="https://github.com/keshavmondal" target="_blank" rel="noopener">Live ↗</a>
+                <a href="https://github.com/keshavmondal" target="_blank" rel="noopener">GitHub ↗</a>
+              </div>
+            </article>
+
+            <article class="card py">
+              <div class="ico">🎲</div>
+              <h3>Number Guessing Game</h3>
+              <p>Fun terminal game with difficulty levels and a high-score board.</p>
+              <div class="tags"><span>Python</span></div>
+              <div class="card-links">
+                <a href="https://github.com/keshavmondal" target="_blank" rel="noopener">GitHub ↗</a>
+              </div>
+            </article>
+
+            <article class="card c">
+              <div class="ico">🏦</div>
+              <h3>Bank Management</h3>
+              <p>Deposit, withdraw and balance features using C++ classes.</p>
+              <div class="tags"><span>C++</span><span>OOP</span></div>
+              <div class="card-links">
+                <a href="https://github.com/keshavmondal" target="_blank" rel="noopener">GitHub ↗</a>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section id="contact" class="section alt">
+        <p class="eyebrow">05 — Contact</p>
+        <h2 class="title">Let's Connect</h2>
+        <p class="sub">Open to internships, collaborations and friendly chats.</p>
+
+        <div class="contact-grid">
+
+          <div class="contact-list">
+            <a class="c-card" href="mailto:keshavmondal11@gmail.com">
+              <span class="c-ico">📧</span>
+              <span><h4>Email</h4><small>keshavmondal11@gmail.com</small></span>
+              <em>Send</em>
+            </a>
+            <a class="c-card" href="tel:+918603409428">
+              <span class="c-ico">📞</span>
+              <span><h4>Phone</h4><small>+91 8603409428</small></span>
+              <em>Call</em>
+            </a>
+            <a class="c-card" href="https://wa.me/918603409428" target="_blank" rel="noopener">
+              <span class="c-ico">💬</span>
+              <span><h4>WhatsApp</h4><small>Chat with me</small></span>
+              <em>Open</em>
+            </a>
+            <a class="c-card" href="https://www.linkedin.com/in/keshav-mondal-b65785432/" target="_blank" rel="noopener">
+              <span class="c-ico">💼</span>
+              <span><h4>LinkedIn</h4><small>/in/keshav-mondal-b65785432/</small></span>
+              <em>Visit</em>
+            </a>
+            <a class="c-card" href="https://github.com/keshavmondal" target="_blank" rel="noopener">
+              <span class="c-ico">🐙</span>
+              <span><h4>GitHub</h4><small>@keshavmondal</small></span>
+              <em>Visit</em>
+            </a>
+            <a class="c-card" href="https://instagram.com/keshavmondall" target="_blank" rel="noopener">
+              <span class="c-ico">📸</span>
+              <span><h4>Instagram</h4><small>@keshavmondall</small></span>
+              <em>Visit</em>
+            </a>
+          </div>
+
+          <form class="panel form" action="mailto:keshavmondal11@gmail.com" method="post" enctype="text/plain">
+            <h3>✉️ Send a message</h3>
+            <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+            <label>Email<input type="email" name="email" placeholder="you@example.com" required></label>
+            <label>Message<textarea name="message" rows="5" placeholder="Say hello…" required></textarea></label>
+            <button type="submit" class="btn primary">Send Message 🚀</button>
+          </form>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <p>Designed &amp; built with ❤️ by <b>Keshav Mondal</b> · © 2026</p>
+    </footer>
+
+    <a href="#top" class="to-top" aria-label="Back to top">↑</a>
+  </div>
+
+</body>
+</html>
